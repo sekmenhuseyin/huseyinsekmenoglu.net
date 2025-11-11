@@ -41,6 +41,8 @@
 /blog/windows-ta-lokal-ssl-sertifikasi-nasil-olusturulur/ /articles/how-to-create-a-local-ssl-certificate-on-windows/ 301
 /blog/wordpress-neden-sinir-bozucu /articles/why-wordpress-can-be-so-frustrating/ 301
 /blog/yazilimci-haklari-evrensel-bildirgesi /articles/the-universal-declaration-of-developer-rights/ 301
+/blog/yazilimcinin-en-buyuk-hatasi /articles/the-biggest-mistake-a-developer-can-make/ 301
+/blog/yazilimcinin-en-buyuk-hatasi/ /articles/the-biggest-mistake-a-developer-can-make/ 301
 /blog/yazilimci-neden-fazla-mesai-yapar /articles/why-developers-end-up-working-overtime/ 301
 /blog/yazilimci-neden-fazla-mesai-yapar/ /articles/why-developers-end-up-working-overtime/ 301
 /etiket/apple /articles/ 301
@@ -60,6 +62,8 @@
 /etiket/c-sharp/ /backend/ 301
 /etiket/css /frontend/ 301
 /etiket/css/ /frontend/ 301
+/etiket/convert /articles/ 301
+/etiket/convert/ /articles/ 301
 /etiket/database /backend/ 301
 /etiket/database/ /backend/ 301
 /etiket/debug /articles/ 301
@@ -150,8 +154,10 @@
 /kategori/genel/ /articles/ 301
 /kategori/genel/guvenlik /security/ 301
 /kategori/genel/windows /articles/ 301
+/tag/album.php /articles/ 301
 /tag/php /articles/ 301
 /tag/programlama /articles/ 301
 /tag/teknoloji_2 /articles/ 301
 /umbraco-cms /umbraco/ 301
+/umbraco-cms/ /umbraco/ 301
 /wp-content/uploads/isp-2.pdf /articles/ 301
