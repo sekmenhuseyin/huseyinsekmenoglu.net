@@ -11,23 +11,23 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<title>Articles | Tech Journey</title>
+<title>Repository Pattern vs CQRS | Tech Journey</title>
 <meta name="Description" content="Explore curated roadmaps, tutorials and projects for backend, frontend, mobile, DevOps, AI and more. Tech Journey helps developers learn smarter and grow faster." />
 <meta name="Name" content="" />
 <meta name="robots" content="FOLLOW,INDEX" />
-<link rel="canonical" href="https://huseyinsekmenoglu.net/articles/" />
+<link rel="canonical" href="https://huseyinsekmenoglu.net/articles/repository-pattern-vs-cqrs/" />
 
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://huseyinsekmenoglu.net/articles/" />
+<meta property="og:url" content="https://huseyinsekmenoglu.net/articles/repository-pattern-vs-cqrs/" />
 <meta property="og:title" content="" />
 <meta property="og:description" content="Explore curated roadmaps, tutorials and projects for backend, frontend, mobile, DevOps, AI and more. Tech Journey helps developers learn smarter and grow faster." />
-<meta property="og:image" content="https://huseyinsekmenoglu.net/media/35nidypy/programmers-day-take-br.jpg?width=1903&amp;height=628&amp;v=1dbf18a6cc21080">
+<meta property="og:image" content="https://huseyinsekmenoglu.net/media/ujopxv33/cqrs-vs-repository.png?width=1903&amp;height=628&amp;v=1dcb00a12a4154c">
 <meta property="og:image:type" content="image/png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="">
 <meta name="twitter:description" content="Explore curated roadmaps, tutorials and projects for backend, frontend, mobile, DevOps, AI and more. Tech Journey helps developers learn smarter and grow faster.">
-<meta name="twitter:image" content="https://huseyinsekmenoglu.net/media/35nidypy/programmers-day-take-br.jpg?width=1903&amp;height=628&amp;v=1dbf18a6cc21080">
+<meta name="twitter:image" content="https://huseyinsekmenoglu.net/media/ujopxv33/cqrs-vs-repository.png?width=1903&amp;height=628&amp;v=1dcb00a12a4154c">
 
 <link rel="apple-touch-icon" sizes="57x57" href="https://huseyinsekmenoglu.net/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="https://huseyinsekmenoglu.net/apple-icon-60x60.png">
@@ -105,152 +105,218 @@
     </div>
 </nav>
 
-    
-<header class="masthead" style="background-image: url('https://huseyinsekmenoglu.net/media/35nidypy/programmers-day-take-br.jpg?width=1903&amp;height=628&amp;v=1dbf18a6cc21080')">
+    <header class="masthead" style="background-image: url('https://huseyinsekmenoglu.net/media/ujopxv33/cqrs-vs-repository.png?width=1903&amp;height=628&amp;v=1dcb00a12a4154c')">
     <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
-                <div class="site-heading">
-                    <h1>Articles</h1>
+                <div class="post-heading">
+                    <h1>Repository Pattern vs CQRS</h1>
 
-                            <span class="subheading">Many blog posts for you</span>
+                            <h2 class="subheading mb-4">Understanding the difference between two commonly confused architecture patterns in modern .NET systems</h2>
+                        <span class="meta">
+                            Posted
+by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu                            on&nbsp;December 24, 2025
+                        </span>
+                            <span class="mt-4 d-block"></span>
+                                <a href="https://huseyinsekmenoglu.net/categories/architecture-patterns/" title="Architecture &amp; Patterns" class="badge rounded-pill bg-light text-dark border-dark border-5">
+                                    Architecture &amp; Patterns
+                                </a>
+                                <a href="https://huseyinsekmenoglu.net/categories/backend-development/" title="Backend Development" class="badge rounded-pill bg-light text-dark border-dark border-5">
+                                    Backend Development
+                                </a>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-10 mx-auto">
-                    <div class="umb-block-list">
-
-<div class="row clearfix ">
-    <div class="col-md-12 column">
-            <div class="post-preview">
-                <a href="https://huseyinsekmenoglu.net/articles/achieving-security-by-design/">
-                    <h2 class="post-title">
-                        Achieving Security by Design
-                    </h2>
-                        <h3 class="post-subtitle">Build safer applications by making security a fundamental part of architecture</h3>
-                </a>
-                <p class="post-meta ">
-                    Posted
-                    by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu
-                    on May 24, 2021
-                </p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="https://huseyinsekmenoglu.net/articles/flexible-behaviors-with-the-strategy-pattern/">
-                    <h2 class="post-title">
-                        Flexible Behaviors with the Strategy Pattern
-                    </h2>
-                        <h3 class="post-subtitle">Choose your logic at runtime without cluttering your code</h3>
-                </a>
-                <p class="post-meta ">
-                    Posted
-                    by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu
-                    on April 19, 2021
-                </p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="https://huseyinsekmenoglu.net/articles/mastering-the-disposable-pattern-in-net-core/">
-                    <h2 class="post-title">
-                        Mastering the Disposable Pattern in .NET Core
-                    </h2>
-                        <h3 class="post-subtitle">Clean up resources with precision using the Disposable Pattern</h3>
-                </a>
-                <p class="post-meta ">
-                    Posted
-                    by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu
-                    on March 29, 2021
-                </p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="https://huseyinsekmenoglu.net/articles/secure-your-asp-net-app-with-proven-configuration-settings/">
-                    <h2 class="post-title">
-                        Secure Your ASP.NET App with Proven Configuration Settings
-                    </h2>
-                        <h3 class="post-subtitle">Boost safety and performance with easy-to-apply server and web.config settings</h3>
-                </a>
-                <p class="post-meta ">
-                    Posted
-                    by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu
-                    on March 09, 2021
-                </p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="https://huseyinsekmenoglu.net/articles/bridging-interfaces-with-the-adapter-pattern/">
-                    <h2 class="post-title">
-                        Bridging Interfaces with the Adapter Pattern
-                    </h2>
-                        <h3 class="post-subtitle">Make incompatible systems work together seamlessly</h3>
-                </a>
-                <p class="post-meta ">
-                    Posted
-                    by&nbsp;H&#xFC;seyin Sekmeno&#x11F;lu
-                    on February 24, 2021
-                </p>
-            </div>
-            <hr>
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="umb-block-list">
 
 
-<nav aria-label="Pagination controls">
-        <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <strong>
-                        <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/12">Prev</a>
-                    </strong>
-                </li>
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">...</a>
-                </li>
+<div class="richtext ">
+    <h2>Introduction</h2><p>The Repository Pattern abstracts persistence. CQRS separates read and write responsibilities.</p><p>Understanding this distinction is important because misuse of either pattern often leads to unnecessary complexity. Many systems end up with over engineered repositories or premature CQRS implementations.</p><hr><h2>Repository Pattern in practice</h2><p>The Repository Pattern abstracts data access behind an interface that behaves like a collection of aggregates.</p><p>The goal is not to hide the database completely. The goal is to keep persistence logic outside the domain and application services.</p><p>Typical interface:</p><pre><code>public interface IOrderRepository
+{
+    Order GetById(Guid id);
+    IEnumerable&lt;Order&gt; GetByCustomerId(Guid customerId);
+    void Add(Order order);
+    void Update(Order order);
+    void Remove(Order order);
+}
+</code></pre><p>In a typical layered architecture the flow looks like this:</p><pre><code>UI
+ ↓
+Application Service
+ ↓
+Repository
+ ↓
+ORM / Data Access
+ ↓
+Database
+</code></pre><p>Application services work with aggregates while the repository handles persistence.</p><p>Example usage inside an application service:</p><pre><code>public class OrderService
+{
+    private readonly IOrderRepository repository;
 
-                <li class="page-item">
-                        <strong>
-                            <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/11">11</a>
-                        </strong>
-                </li>
-                <li class="page-item">
-                        <strong>
-                            <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/12">12</a>
-                        </strong>
-                </li>
-                <li class="page-item">
-                        <a class="page-link" href="#">13</a>
-                </li>
-                <li class="page-item">
-                        <strong>
-                            <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/14">14</a>
-                        </strong>
-                </li>
-                <li class="page-item">
-                        <strong>
-                            <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/15">15</a>
-                        </strong>
-                </li>
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">...</a>
-                </li>
-                <li class="page-item">
-                    <strong>
-                        <a class="page-link text-primary" href="https://huseyinsekmenoglu.net/articles/page/14">Next</a>
-                    </strong>
-                </li>
-        </ul>
-</nav>    </div>
-</div>
-</div>
-                </div>
+    public OrderService(IOrderRepository repository)
+    {
+        this.repository = repository;
+    }
+
+    public void CreateOrder(Guid customerId)
+    {
+        var order = new Order(customerId);
+
+        repository.Add(order);
+    }
+}
+</code></pre><p>This keeps the service focused on business behavior rather than persistence mechanics.</p><hr><h2>Repository pattern limitations</h2><p>Repositories work well when the domain model aligns with the data model. Problems begin when read scenarios diverge from aggregate boundaries.</p><p>Typical issues include:</p><p><strong>Query inflation</strong></p><p>Repositories accumulate query specific methods.</p><pre><code>GetOrdersByDateRange()
+GetOrdersByStatus()
+GetOrdersForDashboard()
+GetOrdersWithCustomerAndPayments()
+</code></pre><p>Eventually repositories become read APIs.</p><p><strong>Inefficient read models</strong></p><p>Returning domain entities for read operations forces unnecessary object graphs.</p><p>Example:</p><pre><code>Order -&gt; OrderLines -&gt; Product -&gt; Supplier
+</code></pre><p>Even when the UI only needs:</p><pre><code>OrderId
+CustomerName
+Total
+Status
+</code></pre><p><strong>Generic repository anti pattern</strong></p><p>Many projects introduce a generic repository abstraction.</p><pre><code>IGenericRepository&lt;T&gt;
+</code></pre><p>This usually becomes a thin wrapper around the ORM and adds little value.</p><hr><h2>CQRS fundamentals</h2><p>CQRS starts from a simple observation.</p><p>Reading data and modifying data are fundamentally different operations.</p><p>Commands change state. Queries return data.</p><p>CQRS formalizes this separation by introducing <strong>different models for each concern</strong>.</p><h3>Command side</h3><p>Commands represent business intent.</p><p>Example command:</p><pre><code>public class CreateOrderCommand
+{
+    public Guid CustomerId { get; set; }
+}
+</code></pre><p>Handled by a command handler:</p><pre><code>public class CreateOrderHandler
+{
+    private readonly IOrderRepository repository;
+
+    public CreateOrderHandler(IOrderRepository repository)
+    {
+        this.repository = repository;
+    }
+
+    public void Handle(CreateOrderCommand command)
+    {
+        var order = new Order(command.CustomerId);
+
+        repository.Add(order);
+    }
+}
+</code></pre><p>Commands usually operate on <strong>domain aggregates</strong>.</p><hr><h3>Query side</h3><p>Queries retrieve data optimized for the consumer.</p><p>Example query:</p><pre><code>public class GetOrderSummaryQuery
+{
+    public Guid OrderId { get; set; }
+}
+</code></pre><p>Query handler:</p><pre><code>public class GetOrderSummaryHandler
+{
+    private readonly IDbConnection connection;
+
+    public GetOrderSummaryHandler(IDbConnection connection)
+    {
+        this.connection = connection;
+    }
+
+    public OrderSummaryDto Handle(GetOrderSummaryQuery query)
+    {
+        const string sql = @"
+            SELECT
+                o.Id,
+                c.Name AS CustomerName,
+                o.Total,
+                o.Status
+            FROM Orders o
+            JOIN Customers c ON c.Id = o.CustomerId
+            WHERE o.Id = @Id";
+
+        return connection.QuerySingle&lt;OrderSummaryDto&gt;(sql, new { Id = query.OrderId });
+    }
+}
+</code></pre><p>The query side returns DTOs designed specifically for the UI or API.</p><hr><h2>Architectural comparison</h2><p>The important difference between the patterns is <strong>scope</strong>.</p><table style="min-width: 75px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p>Aspect</p></th><th colspan="1" rowspan="1"><p>Repository Pattern</p></th><th colspan="1" rowspan="1"><p>CQRS</p></th></tr><tr><td colspan="1" rowspan="1"><p>Primary concern</p></td><td colspan="1" rowspan="1"><p>Persistence abstraction</p></td><td colspan="1" rowspan="1"><p>Responsibility separation</p></td></tr><tr><td colspan="1" rowspan="1"><p>Architecture level</p></td><td colspan="1" rowspan="1"><p>Data access</p></td><td colspan="1" rowspan="1"><p>Application architecture</p></td></tr><tr><td colspan="1" rowspan="1"><p>Model structure</p></td><td colspan="1" rowspan="1"><p>Single domain model</p></td><td colspan="1" rowspan="1"><p>Separate read and write models</p></td></tr><tr><td colspan="1" rowspan="1"><p>Complexity</p></td><td colspan="1" rowspan="1"><p>Low</p></td><td colspan="1" rowspan="1"><p>Medium to high</p></td></tr></tbody></table><p>Repositories are an <strong>implementation detail</strong>. CQRS is an <strong>architectural style</strong>.</p><hr><h2>How CQRS and repositories work together</h2><p>In real systems the most common arrangement is:</p><p><strong>Command side uses repositories.</strong></p><p><strong>Query side bypasses them.</strong></p><p>Command flow:</p><pre><code>UI
+ ↓
+Command
+ ↓
+Command Handler
+ ↓
+Domain Aggregate
+ ↓
+Repository
+ ↓
+Database
+</code></pre><p>Query flow:</p><pre><code>UI
+ ↓
+Query
+ ↓
+Query Handler
+ ↓
+SQL / Dapper
+ ↓
+Database
+</code></pre><p>Repositories remain responsible for aggregate persistence while query handlers use optimized SQL or projections.</p><p>This avoids turning repositories into read APIs.</p><hr><h2>When repositories are enough</h2><p>Many applications do not benefit from CQRS.</p><p>Repositories alone are usually sufficient when:</p><ul><li><p>The application is CRUD focused</p></li><li><p>Domain logic is moderate</p></li><li><p>Read requirements align with aggregates</p></li><li><p>System scale is predictable</p></li></ul><p>Typical architecture:</p><pre><code>Controllers
+ ↓
+Application Services
+ ↓
+Repositories
+ ↓
+ORM
+ ↓
+Database
+</code></pre><p>This architecture is simple and easy to maintain.</p><hr><h2>When CQRS becomes useful</h2><p>CQRS becomes valuable when read complexity diverges from write complexity.</p><p>Common scenarios include:</p><p><strong>High read throughput</strong></p><p>Systems with large numbers of read requests.</p><p><strong>Complex dashboards or reporting</strong></p><p>Queries become difficult to express through aggregates.</p><p><strong>Different read models</strong></p><p>UI models differ significantly from domain models.</p><p>Example:</p><p>Write model:</p><pre><code>Order
+OrderLine
+Payment
+Shipment
+</code></pre><p>Read model:</p><pre><code>OrderSummary
+CustomerOrders
+DailySalesDashboard
+</code></pre><p>These projections often require denormalized structures.</p><hr><h2>A pragmatic adoption strategy</h2><p>CQRS should rarely be introduced at the beginning of a project.</p><p>A typical evolution path looks like this:</p><pre><code>Layered architecture
+↓
+Repositories and domain services
+↓
+Introduce query handlers for complex reads
+↓
+Adopt full CQRS separation
+</code></pre><p>This keeps complexity proportional to system needs.</p><hr><h2>Final thoughts</h2><p>The Repository Pattern and CQRS are frequently discussed together which makes them appear interchangeable. In reality they address different concerns.</p><p>Repositories manage <strong>how aggregates are persisted</strong>.</p><p>CQRS manages <strong>how the application handles reads and writes</strong>.</p><p>In most modern .NET systems the practical architecture looks like this:</p><pre><code>Command Side
+Command → Handler → Domain → Repository → Database
+
+Query Side
+Query → Handler → SQL/Dapper → Database
+</code></pre><p>This approach preserves the benefits of domain modeling on the write side while allowing highly optimized reads.</p><p>For many systems repositories alone are sufficient. CQRS becomes valuable when the complexity of read models starts to diverge from the domain model.</p><p>Recognizing that moment is an architectural judgment call that typically comes with experience.</p>
+</div></div>
             </div>
         </div>
-    </article>
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="article-navigation">
+    <ul class="flex justify-between">
+        <li class="article-navigation-item">
+                <a class="article-navigation-item-link" href="https://huseyinsekmenoglu.net/articles/blazor-web-app-vs-angular-the-verdict-for-your-needs/" title="Previous Article">
+                    <div class="flex items-center justify-center md:justify-start">
+                        &lt; &nbsp;
+                        <p class="font-primary">
+                            Previous Article
+                        </p>
+                    </div>
+                    <h5 class="hidden md:block text-lg text-primary mb-1 font-black">
+                        Blazor Web App vs. Angular: The Verdict for Your Needs
+                    </h5>
+                </a>
+        </li>
+            <li class="article-navigation-item">
+                <a class="article-navigation-item-link" href="https://huseyinsekmenoglu.net/articles/mastering-cache-invalidation-in-cqrs-architectures/" title="Next Article">
+                    <div class="flex items-center flex-row-reverse md:flex-row justify-center md:justify-end">
+                        &nbsp; &gt;
+                        <p class="font-primary">
+                            Next Article
+                        </p>
+                    </div>
+                    <h5 class="hidden md:block text-lg text-primary mb-1 font-black text-right">
+                        Mastering Cache Invalidation in CQRS Architectures
+                    </h5>
+                </a>
+            </li>
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</article>
 
     
 <footer>
